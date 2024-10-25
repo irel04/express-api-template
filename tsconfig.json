@@ -4,6 +4,15 @@
     "module": "commonjs",
     "baseUrl": "./",
     "paths": {
+      "@services/*": ["src/services/*"],
+      "@config/*": ["src/config/*"],
+      "@controllers/*": ["src/controllers/*"],
+      "@dataAccess/*": ["src/dataAccess/*"],
+      "@models/*": ["src/models/*"],
+      "@routes/*": ["src/routes/*"],
+      "@scripts/*": ["src/scripts/*"],
+      "@test/*": ["test/*"],
+      "@public/*": ["public/*"]
     },
     "esModuleInterop": true, 
     "forceConsistentCasingInFileNames": true,
