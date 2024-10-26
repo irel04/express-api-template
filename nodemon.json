@@ -3,5 +3,6 @@
 		"src"
 	],
 	"ext": "ts",
+	"ignore": ["node_modules", "dist"],
 	"exec": "concurrently \"npx tsc --watch\" \"ts-node src/index.ts\""
 }
